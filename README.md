@@ -49,7 +49,7 @@ The frontend uses `VITE_API_URL` to communicate with the backend.
 
 Email: `admin@workshop.test`
 
-Password: Use the development password configured in the backend `.env` file before running the seed script.
+ADMIN_PASSWORD=ChangeThis123!
 
 ## Implementation Notes
 
