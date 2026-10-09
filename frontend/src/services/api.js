@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const BASE = "https://workshop-registration-service.vercel.app/api";
 
 export async function api(path, method = 'GET', body) {
   const token = localStorage.getItem('workshoply_token');
